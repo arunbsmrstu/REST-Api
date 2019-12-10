@@ -16,7 +16,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class Utils {
     private final Random RANDOM= new SecureRandom();
-    private final String ALPHABET="(0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!@#$%^&*)";
+    private final String ALPHABET="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
     
     public String generatedUserId(int length){
         return generateRandomString(length);
