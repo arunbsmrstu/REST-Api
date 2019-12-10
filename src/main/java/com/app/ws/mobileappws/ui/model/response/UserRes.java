@@ -12,7 +12,7 @@ package com.app.ws.mobileappws.ui.model.response;
 public class UserRes {
     
     private String userId;
-    private String fistName;
+    private String firstName;
     private String lastName;
     private String email;
 
@@ -27,14 +27,15 @@ public class UserRes {
         this.userId = userId;
     }
 
-    public String getFistName() {
-        return fistName;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public void setFistName(String fistName) {
-        this.fistName = fistName;
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
 
+   
     public String getLastName() {
         return lastName;
     }
